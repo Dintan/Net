@@ -1,5 +1,5 @@
 
-int nDots = 20;
+int nDots = 200;
 PVector[] dots;
 
 void setup () {
@@ -22,7 +22,7 @@ void draw () {
 
 void updateDots() {
   for (int i = 0; i < nDots; i++) {
-    PVector offset = new PVector(random(-10, 10), random(-10, 10));
+    PVector offset = new PVector(random(-0.5, 3), random(-3, 3));
     dots[i].add(offset);
 
     if (dots[i].x < 0) { 
