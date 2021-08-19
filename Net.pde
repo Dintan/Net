@@ -3,7 +3,7 @@ int nDots = 200;
 PVector[] dots;
 
 void setup () {
-  size(600, 600);
+  size(800, 800);
 
   dots = new PVector[nDots]; 
   for (int i = 0; i < nDots; i++) {
